@@ -9,7 +9,7 @@
     justify-content: center;
     height: 100vh;
     align-items: center;
-    background-image: url("https://images.unsplash.com/photo-1500485035595-cbe6f645feb1?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8fA%3D%3D");
+    background-image: url("https://pixewall.com/wp-content/uploads/2023/11/Spiderman-iPhone-Mobile-Wallpaper.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -22,6 +22,7 @@
     height: fit-content;
     border: 1px solid black;
     flex-wrap: wrap;
+    gap: 5px;
     
 }
 
@@ -34,22 +35,26 @@
 
 .options > button{
     
-    border-width: 0;
+    border-left-width: 0;
+    border-right-width: 0;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 20px;
+    background-color: white;
+    color: rgb(0, 0, 0);
     
 }
 
 .options > button:hover{
-    background-color: rgb(95, 138, 255);
+    background-color: rgb(255, 116, 9);
     color: white;
 }
 
 .question{
     font-size: 30px;
-    background-color: antiquewhite;
+    background-color: black;
     border: 1px solid black;
     font-family: cursive;
+    color: red;
 }
 
 #correct:focus{
