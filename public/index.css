@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    background-image: url("https://images.unsplash.com/photo-1500485035595-cbe6f645feb1?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8fA%3D%3D");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    height: fit-content;
+    border: 1px solid black;
+    flex-wrap: wrap;
+    
+}
+
+.options{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+}
+
+.options > button{
+    
+    border-width: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    
+}
+
+.options > button:hover{
+    background-color: rgb(95, 138, 255);
+    color: white;
+}
+
+.question{
+    font-size: 30px;
+    background-color: antiquewhite;
+    border: 1px solid black;
+    font-family: cursive;
+}
+
+#correct:focus{
+    background-color: rgb(17, 255, 17);
+}
+
+#wrong:focus{
+    background-color: red;
+}
+
+
+#next-btn{
+    width: 75px;
+    height: 50px;
+    background-color: yellow;
+    color: black;
+    border-radius: 25%;
+}
+
+.bottom{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+    .card{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        height: fit-content;
+        border: 1px solid black;
+        flex-wrap: wrap;
+        
+    }
+}
