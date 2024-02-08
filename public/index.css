@@ -45,6 +45,7 @@
     background-color: white;
     color: rgb(0, 0, 0);
     height: 50px;
+    border-radius: 100px;
     
 }
 
@@ -55,10 +56,10 @@
 
 .question{
     font-size: 30px;
-    background-color: black;
-    border: 1px solid black;
     font-family: cursive;
+    background-color: black;
     color: red;
+    
 }
 
 #correct:focus{
