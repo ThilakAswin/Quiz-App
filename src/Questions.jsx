@@ -20,7 +20,7 @@ const questions = [
     answer:"TCE"
 },
 {
-    question:"Who will win in TN Election 2026",
+    question:"Who will win in TN Election 2026?",
     options: {
         one:"NTK 🧑‍🌾",
         two:"MNM 🔦",

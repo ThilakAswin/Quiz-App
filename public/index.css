@@ -12,10 +12,13 @@
     background-image: url("https://pixewall.com/wp-content/uploads/2023/11/Spiderman-iPhone-Mobile-Wallpaper.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 
 }
 
 .card{
+    padding-top: 30%;
     display: flex;
     flex-direction: column;
     width: 70%;
@@ -41,6 +44,7 @@
     font-size: 20px;
     background-color: white;
     color: rgb(0, 0, 0);
+    height: 50px;
     
 }
 
