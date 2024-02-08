@@ -18,12 +18,12 @@
 }
 
 .card{
-    padding-top: 30%;
+    
     display: flex;
     flex-direction: column;
     width: 70%;
     height: fit-content;
-    border: 1px solid black;
+    
     flex-wrap: wrap;
     gap: 5px;
     
@@ -71,11 +71,13 @@
 
 
 #next-btn{
-    width: 75px;
+    width: 100px;
     height: 50px;
-    background-color: yellow;
-    color: black;
-    border-radius: 25%;
+    background-color: rgb(255, 116, 9);
+    color: white;
+    border-radius: 100px;
+    font-size: larger;
+    
 }
 
 .bottom{
@@ -92,7 +94,7 @@
         flex-direction: column;
         width: 90%;
         height: fit-content;
-        border: 1px solid black;
+        padding-top: 30%;
         flex-wrap: wrap;
         
     }

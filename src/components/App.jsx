@@ -45,7 +45,7 @@ function App(){
                 <button className='btn' id={id} onClick={handleClick} value={Questions[index].options.four}>{Questions[index].options.four}</button>
             </div>  
         </div>
-        <div className="bottom"><h3 style={{display : next ? "" : "none", color:"white",fontWeight:"bolder"}}>Correct Answer</h3><button id="next-btn" onClick={nextButton} style={{display : next ? "" : "none"}}>Next</button></div>
+        <div className="bottom"><h3 style={{display : next ? "" : "none", color:"red",fontWeight:"bolder", backgroundColor:"black"}}>CORRECT</h3><button id="next-btn" onClick={nextButton} style={{display : next ? "" : "none"}}>Next</button></div>
         </div>
     </div>
 }
