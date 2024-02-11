@@ -1,23 +1,23 @@
 const questions = [
 {
-    question:"When is Wipro Onboarding?",
+    question:"Which Team won the most IPL?",
     options: {
-        one:"Today",
-        two:"Tomorrow",
-        three:"Yesterday",
-        four:"Nottu"
+        one:"CSK",
+        two:"MI",
+        three:"RCB",
+        four:"KKR"
     },
-    answer:"Nottu"
+    answer:"RCB"
 },
 {
-    question:"Which is the best engineering college in India?",
+    question:"Who is the Next Superstar?",
     options: {
-        one:"IITM",
-        two:"NIT Tirchy",
-        three:"TCE",
-        four:"IIT Khargapur"
+        one:"Siva Karthikeyan",
+        two:"STR",
+        three:"Vimal Na",
+        four:"Dhanush"
     },
-    answer:"TCE"
+    answer:"Vimal Na"
 },
 {
     question:"Who will win in TN Election 2026?",
@@ -48,7 +48,8 @@ const questions = [
         four:"ஓட்டவாய்"
     },
     answer:"செவ்வாய்"
-}
+},
+
 
 ]
 

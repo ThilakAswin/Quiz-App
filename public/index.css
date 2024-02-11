@@ -9,7 +9,7 @@
     justify-content: center;
     height: 100vh;
     align-items: center;
-    background-image: url("https://pixewall.com/wp-content/uploads/2023/11/Spiderman-iPhone-Mobile-Wallpaper.jpg");
+    background-image: url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgg_vzJxKX45L_hjheF0BWmZmdmweVOz3Q2fVsx-oQo-6jj55SM1tvfqYEmaCFKvsSbJboLacdqJ8T2J1M67nNPgwo0aS-Ur1RNJ9yjkZOnIRNP4b-rn3U73JODgHV3rrDGjscesK2Mjw3HrwzIz-l7E6CyhcvFH-ITEE14tKowCU5cZzpS0QxPXYEP7A/w1600/4k-batman-wallpaper-ai-generated.webp");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -98,5 +98,8 @@
         padding-top: 30%;
         flex-wrap: wrap;
         
+    }
+    .container{
+        background-image: url("https://pixewall.com/wp-content/uploads/2023/11/Spiderman-iPhone-Mobile-Wallpaper.jpg");
     }
 }
